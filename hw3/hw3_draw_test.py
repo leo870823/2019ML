@@ -1,7 +1,6 @@
 import cv2
 import sys
 import csv
-import time
 import numpy as np
 import pandas as pd
 import torch
@@ -10,8 +9,7 @@ import torch.nn.functional as F
 import os 
 from torch.utils.data import TensorDataset, DataLoader ,sampler
 import cv2
-import matplotlib.pyplot as plt
-from PIL import Image
+
 
 def draw_result(lst_iter, lst_loss, lst_acc, title):
     plt.plot(lst_iter, lst_loss, '-b', label='Training')
