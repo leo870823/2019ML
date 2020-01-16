@@ -21,7 +21,7 @@
 * lightgbm 2.3.0
 * sklearn 0.0
 * tensorflow 2.0.0
-* keras==2.3.1
+* keras 2.3.1
 
 ## File Description
 
