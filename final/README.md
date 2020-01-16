@@ -41,10 +41,10 @@
 ```
    root
    +-- src
-   |   +-- train.sh
-   |   +-- test.sh
    |   +-- train.py
    |   +-- test.py
    +-- Report.pdf
    +-- README.md
+   +-- train.sh
+   +-- test.sh
 ```
